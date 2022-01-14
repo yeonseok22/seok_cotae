@@ -1,4 +1,5 @@
 # seok_cotae
+- 코딩 테스트 문제 저장해 둔 것
 
 - git 참고 사항 : [git 초기 설정](https://blog.naver.com/ogh010/222412610320)
     1. repository 생성
