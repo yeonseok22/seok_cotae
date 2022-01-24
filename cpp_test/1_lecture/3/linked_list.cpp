@@ -20,7 +20,7 @@ public:
     {
         while (!empty()) {
             pop_front();
-	}
+		}
     }
 
     void push_front(int val)  // 연결 리스트 맨 앞에 노드 삽입하기
@@ -29,20 +29,20 @@ public:
 
 	if (head != NULL) {
             new_node->next = head;
-	}
+		}
 
-	head = new_node;
+		head = new_node;
     }
 
     void pop_front()  // 연결 리스트 맨 앞 노드 삭제하기
     {
         if (head == NULL) {
             return;
-	}
+		}	
 
-	Node* first = head;
-	head = head->next;
-	delete first;
+		Node* first = head;
+		head = head->next;
+		delete first;
     }
 
     bool empty() const  // 연결 리스트가 비어 있는지 확인
@@ -54,12 +54,12 @@ public:
     {
         Node* curr = head;
 
-	while (curr != NULL) {
+		while (curr != NULL) {
             cout << curr->data << ", ";
-	    curr = curr->next;
-	}
+			curr = curr->next;
+		}
 
-	cout << "\n";
+		cout << "\n";
     }
 };
 
