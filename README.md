@@ -1,5 +1,6 @@
 # seok_cotae
 - 코딩 테스트 문제 저장해 둔 것
+- 언어 : C/C++, Python, Kotlin / Swift(Swift 위주)
 - 백준, 프로그래머스, 코드업, 해커랭크, 자료구조 + 알고리즘 정리
 
 - git 참고 사항 : [git 초기 설정](https://blog.naver.com/ogh010/222412610320)
